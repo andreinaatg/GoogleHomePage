@@ -1,11 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Google</title>
+  <link href="header.css" rel="stylesheet" type="text/css">
+  <link href="general.css" rel="stylesheet" type="text/css">
+  <link href="main.css" rel="stylesheet" type="text/css">
+  <link href="footer.css" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    
+  <header>
+    <nav class="nav-bar">
+      <section class="left-section">
+        <ul class="left-section-links">
+          <li><a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+          <li><a href="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store </a></li>
+        </ul>
+      </section>
+      <section class="right-section">
+        <ul class="right-section-links">
+          <li><a href="https://mail.google.com/mail/u/0/">Gmail</a></li>
+          <li><a href="https://www.google.com/imghp?hl=en&ogbl">Images</a></li>
+        </ul>
+        <figure class="apps-icon-container">
+          <img src="images/app-menu-svgrepo-com.svg" alt="apps-icon" class="icon-image">
+          <figcaption class="tooltip"> Google apps</figcaption>
+        </figure>
+        <figure class="profile-picture-container">
+          <img src="images/catpic.jpeg" alt="profile-picture" class="profile-image">
+        </figure>
+      </section>
+    </nav>
+  </header>
+  
+  <main>
+    <figure class="google-logo-container">
+      <img src="images/googlelogo_light_color_272x92dp.png" alt="google-logo" class="google-logo">
+    </figure>
+    <Section class="search-bar-container">
+      <figure class="search-icon-container">
+        <img src="images/search-icon-2.png" alt="search-icon">
+      </figure>
+      <form>
+        <label for="searchBar">
+          <input type="text" id="searchBar" class="search-bar">
+        </label>
+      </form>
+      <figure class="microphone-icon-container">
+        <img src="images/voice-search-icon-removebg-preview.png" alt="microphone-search-icon" id="voice-search">
+        <figcaption class="tooltip">Search by voice</figcaption>
+      </figure>
+      <figure class="image-search-container">
+        <img src="images/google-image-search-icon.webp" alt="image-search-icon" id="image-search">
+        <figcaption class="tooltip">Search by image</figcaption>
+      </figure>
+    </Section>
+    <div class="button-container">
+      <button class="search-btn" id="searchButton">Google Search</button>
+      <button class="search-btn">I'm feeling lucky</button>
+    </div>
+  </main>
+
+  <footer>
+    <section class="footer-left-section">
+      <ul class="footer-links">
+        <li><a href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+        <li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a></li>
+        <li><a href="https://google.com/search/howsearchworks/?fg=1">How search works</a></li>
+      </ul>
+    </section> 
+    <section class="footer-middle-section">
+      <ul>
+        <li><img src="images/download.png" alt="leaf-icon" id="leaf-icon"><a href="https://sustainability.google/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=">Our third decade of climate action: join us</a></li>
+      </ul>
+    </section>
+    <section class="footer-right-section">
+        <ul class="footer-links">
+        <li><a href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a></li>
+        <li><a href="https://policies.google.com/terms?hl=en&fg=1">Termns</a></li>
+        <li><a href="https://www.google.com/preferences?hl=en&fg=1">Settings</a></li>
+      </ul>
+    </section>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
