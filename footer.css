@@ -27,3 +27,12 @@ footer{
   width: 14px;
   margin-right: 6px;
 }
+
+@media (max-width: 769px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+

@@ -111,3 +111,10 @@ label {
 .search-btn:hover {
   outline: solid 1px gray;
 }
+
+@media (max-width: 769px) {
+  .search-bar {
+    width: 80%;
+  }
+}
+
