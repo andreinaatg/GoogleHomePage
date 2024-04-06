@@ -1,110 +1,113 @@
 main {
-    height: 400px;
-    margin-top: 165px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .google-logo {
-    height: 92px;
-    width: 272px;
-  }
-  
-  .search-bar {
-    height: 24px;
-    width: 524px;
-    padding: 10px 40px;
-    background-color: #202124;
-    color: white;
-    font-size: 16px;
-    border-radius: 26px;
-    border-color: gray;
-    border-style: solid;
-    border-width: 1px;
-    transition: background-color 0.3s;
-    outline: none;
-  }
-  .search-bar:focus,
-  .search-bar:hover,
-  .search-bar:active {
-    background-color: rgb(48, 49, 52);
-  }
-  
-  .search-bar-container {
-    position: relative;
-    display: flex;
-  }
-  
-  .search-icon-container img {
-    height: 16px;
-    width: 16px
-  }
-  .search-icon-container {
-    position: absolute;
-    left: -25px;
-    top: 0px;
-  }
-  
-  #voice-search {
-    height: 24px;
-    width: 24px;
-    margin-right: 40px;
-    cursor: pointer;
-  }
-  
-  #image-search {
-    height: 24px;
-    width: 24px;
-    cursor: pointer;
-  }
-  
-  .image-search-container, .microphone-icon-container{
-    position: absolute;
-    right: -25px;
-    top: -5px;
-  }
-  
-  .image-search-container .tooltip,
-  .microphone-icon-container .tooltip {
-    position: absolute;
-    color: rgb(189, 193, 198);
-    background-color: #2a2a2d;
-    padding: 10px 15px;
-    white-space: nowrap;
-    border-radius: 2px;
-    font-size: 11px;
-    font-weight: 700;
-    left: -30px;
-    bottom: -35px;
-    opacity: 0;
-    transition: opacity 0.15s;
-    pointer-events: none;
-  }
-  
-  .image-search-container:hover .tooltip,
-  .microphone-icon-container:hover .tooltip{
-    opacity: 1;
-  }
-  
-  .button-container {
-    margin-top: 25px;
-  
-  }
-  
-  .search-btn {
-    margin-right: 10px;
-    padding: 10px 16px;
-    background-color: #303134;
-    color: rgb(226, 229, 233);
-    border: none;
-    border-radius: 3px;
-    transition: outline 0.15s;
-    outline: solid 1px transparent;
-    cursor: pointer;
-  }
-  
-  .search-btn:hover {
-    outline: solid 1px gray;
-  }
+  height: 400px;
+  margin-top: 165px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.google-logo {
+  height: 92px;
+  width: 272px;
+}
+
+.search-bar {
+  height: 24px;
+  width: 524px;
+  padding: 10px 40px;
+  background-color: #202124;
+  color: white;
+  font-size: 16px;
+  border-radius: 26px;
+  border-color: gray;
+  border-style: solid;
+  border-width: 1px;
+  transition: background-color 0.3s;
+  outline: none;
+}
+.search-bar:focus,
+.search-bar:hover,
+.search-bar:active {
+  background-color: rgb(48, 49, 52);
+}
+
+.search-bar-container {
+  position: relative;
+  display: flex;
+}
+
+.search-icon-container img {
+  height: 16px;
+  width: 16px
+}
+.search-icon-container {
+  position: absolute;
+  left: -25px;
+  top: 0px;
+}
+
+#voice-search {
+  height: 24px;
+  width: 24px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+#image-search {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+
+.image-search-container, .microphone-icon-container{
+  position:absolute;
+  right: -25px;
+  top: -5px;
+}
+label {
+  display: none;
+}
+
+.image-search-container .tooltip,
+.microphone-icon-container .tooltip {
+  position: absolute;
+  color: rgb(189, 193, 198);
+  background-color: #2a2a2d;
+  padding: 10px 15px;
+  white-space: nowrap;
+  border-radius: 2px;
+  font-size: 11px;
+  font-weight: 700;
+  left: -30px;
+  bottom: -35px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+.image-search-container:hover .tooltip,
+.microphone-icon-container:hover .tooltip{
+  opacity: 1;
+}
+
+.button-container {
+  margin-top: 25px;
+
+}
+
+.search-btn {
+  margin-right: 10px;
+  padding: 10px 16px;
+  background-color: #303134;
+  color: rgb(226, 229, 233);
+  border: none;
+  border-radius: 3px;
+  transition: outline 0.15s;
+  outline: solid 1px transparent;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  outline: solid 1px gray;
+}

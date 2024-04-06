@@ -1,88 +1,88 @@
 .nav-bar {
-    background-color: #202124;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: space-between;
-  }
+  background-color: #202124;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-section {
+  display: flex;
+  background-color: #202124;
+  width: 200px;
+  align-items: center;
+}
+
+.left-section-links {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.left-section-links li {
+  margin-right: 15px;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+}
+
+.right-section li {
+  margin-right: 15px;
+}
+.right-section a {
+  color: white;
+}
+.right-section-links {
+  display: flex;
+}
+
+.icon-image {
+  height: 28px;
+  width: 28px;
+  border-radius: 19px;
+  transition: opacity 0.15s;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.icon-image:hover {
+  background-color: #39393c;
   
-  .left-section {
-    display: flex;
-    background-color: #202124;
-    width: 200px;
-    align-items: center;
-  }
-  
-  .left-section-links {
-    display: flex;
-    justify-content: flex-start;
-  }
-  
-  .left-section-links li {
-    margin-right: 15px;
-  }
-  
-  .right-section {
-    display: flex;
-    align-items: center;
-  }
-  
-  .right-section li {
-    margin-right: 15px;
-  }
-  .right-section a {
-    color: white;
-  }
-  .right-section-links {
-    display: flex;
-  }
-  
-  .icon-image {
-    height: 28px;
-    width: 28px;
-    border-radius: 19px;
-    transition: opacity 0.15s;
-    cursor: pointer;
-    padding: 5px;
-  }
-  
-  .icon-image:hover {
-    background-color: #39393c;
-    
-  }
-  
-  .profile-image {
-    height: 40px;
-    width: 40px;
-    border-radius: 20px;
-    object-fit: cover;
-    cursor: pointer;
-  }
-  
-  .apps-icon-container {
-    margin-right: 15px;
-    margin-left: 5px;
-    position: relative;
-  }
-  
-  .apps-icon-container .tooltip {
-    position: absolute;
-    color: rgb(189, 193, 198);
-    background-color: #39393c;
-    padding: 5px;
-    white-space: nowrap;
-    border-radius: 2px;
-    font-size: 10px;
-    bottom: -35px;
-    opacity: 0;
-    transition: opacity 0.15s;
-  }
-  .apps-icon-container:hover .tooltip {
-    opacity: 1;
-  }
-  .profile-picture-container {
-    margin-right: 15px;
-    margin-left: 5px;
-  }
+}
+
+.profile-image {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.apps-icon-container {
+  margin-right: 15px;
+  margin-left: 5px;
+  position: relative;
+}
+
+.apps-icon-container .tooltip {
+  position: absolute;
+  color: rgb(189, 193, 198);
+  background-color: #39393c;
+  padding: 5px;
+  white-space: nowrap;
+  border-radius: 2px;
+  font-size: 10px;
+  bottom: -35px;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.apps-icon-container:hover .tooltip {
+  opacity: 1;
+}
+.profile-picture-container {
+  margin-right: 15px;
+  margin-left: 5px;
+}
